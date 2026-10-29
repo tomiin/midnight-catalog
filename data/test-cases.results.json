@@ -1,0 +1,381 @@
+[
+  {
+    "name": "TEST good project",
+    "checkedAt": "2026-10-29T22:20:22.490Z",
+    "commit": {
+      "sha": "b7662a5502c99767a9d3462489075052430d0bde",
+      "date": "2026-09-30T06:57:01Z",
+      "branch": "main"
+    },
+    "passed": 11,
+    "total": 11,
+    "skipped": 1,
+    "flags": [],
+    "notes": [],
+    "checks": [
+      {
+        "id": "repo.exists",
+        "ok": true,
+        "detail": "tomiin/midnight-mandate"
+      },
+      {
+        "id": "repo.public",
+        "ok": true,
+        "detail": "public"
+      },
+      {
+        "id": "repo.original",
+        "ok": true,
+        "detail": "not a fork"
+      },
+      {
+        "id": "repo.age",
+        "ok": true,
+        "detail": "29 days old"
+      },
+      {
+        "id": "repo.commits",
+        "ok": true,
+        "detail": "4 commits"
+      },
+      {
+        "id": "repo.recent",
+        "ok": true,
+        "detail": "last commit 29 days ago"
+      },
+      {
+        "id": "repo.readme",
+        "ok": true,
+        "detail": "28085 bytes"
+      },
+      {
+        "id": "owner.age",
+        "ok": true,
+        "detail": "account 3004 days old"
+      },
+      {
+        "id": "scan.secrets",
+        "ok": true,
+        "detail": "no secret patterns in 74 files"
+      },
+      {
+        "id": "demo.loads",
+        "ok": true,
+        "detail": "HTTP 200"
+      },
+      {
+        "id": "video.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "contract.format",
+        "ok": true,
+        "detail": "64-hex, network unspecified (on-chain lookup not yet implemented)"
+      }
+    ]
+  },
+  {
+    "name": "TEST repo does not exist",
+    "checkedAt": "2026-10-29T22:20:22.827Z",
+    "commit": null,
+    "passed": 0,
+    "total": 1,
+    "skipped": 3,
+    "flags": [
+      "repo.exists"
+    ],
+    "notes": [],
+    "checks": [
+      {
+        "id": "repo.exists",
+        "ok": false,
+        "detail": "GitHub returned 404"
+      },
+      {
+        "id": "demo.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "video.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "contract.format",
+        "ok": null,
+        "detail": "not provided (optional)"
+      }
+    ]
+  },
+  {
+    "name": "TEST not a github url",
+    "checkedAt": "2026-10-29T22:20:22.827Z",
+    "commit": null,
+    "passed": 0,
+    "total": 1,
+    "skipped": 3,
+    "flags": [
+      "repo.url"
+    ],
+    "notes": [],
+    "checks": [
+      {
+        "id": "repo.url",
+        "ok": false,
+        "detail": "not a github.com repo URL"
+      },
+      {
+        "id": "demo.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "video.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "contract.format",
+        "ok": null,
+        "detail": "not provided (optional)"
+      }
+    ]
+  },
+  {
+    "name": "TEST dead demo link",
+    "checkedAt": "2026-10-29T22:20:28.858Z",
+    "commit": {
+      "sha": "b7662a5502c99767a9d3462489075052430d0bde",
+      "date": "2026-09-30T06:57:01Z",
+      "branch": "main"
+    },
+    "passed": 9,
+    "total": 10,
+    "skipped": 2,
+    "flags": [
+      "demo.loads"
+    ],
+    "notes": [],
+    "checks": [
+      {
+        "id": "repo.exists",
+        "ok": true,
+        "detail": "tomiin/midnight-mandate"
+      },
+      {
+        "id": "repo.public",
+        "ok": true,
+        "detail": "public"
+      },
+      {
+        "id": "repo.original",
+        "ok": true,
+        "detail": "not a fork"
+      },
+      {
+        "id": "repo.age",
+        "ok": true,
+        "detail": "29 days old"
+      },
+      {
+        "id": "repo.commits",
+        "ok": true,
+        "detail": "4 commits"
+      },
+      {
+        "id": "repo.recent",
+        "ok": true,
+        "detail": "last commit 29 days ago"
+      },
+      {
+        "id": "repo.readme",
+        "ok": true,
+        "detail": "28085 bytes"
+      },
+      {
+        "id": "owner.age",
+        "ok": true,
+        "detail": "account 3004 days old"
+      },
+      {
+        "id": "scan.secrets",
+        "ok": true,
+        "detail": "no secret patterns in 74 files"
+      },
+      {
+        "id": "demo.loads",
+        "ok": false,
+        "detail": "HTTP 404"
+      },
+      {
+        "id": "video.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "contract.format",
+        "ok": null,
+        "detail": "not provided (optional)"
+      }
+    ]
+  },
+  {
+    "name": "TEST bad contract address",
+    "checkedAt": "2026-10-29T22:20:34.237Z",
+    "commit": {
+      "sha": "b7662a5502c99767a9d3462489075052430d0bde",
+      "date": "2026-09-30T06:57:01Z",
+      "branch": "main"
+    },
+    "passed": 9,
+    "total": 10,
+    "skipped": 2,
+    "flags": [
+      "contract.format"
+    ],
+    "notes": [],
+    "checks": [
+      {
+        "id": "repo.exists",
+        "ok": true,
+        "detail": "tomiin/midnight-mandate"
+      },
+      {
+        "id": "repo.public",
+        "ok": true,
+        "detail": "public"
+      },
+      {
+        "id": "repo.original",
+        "ok": true,
+        "detail": "not a fork"
+      },
+      {
+        "id": "repo.age",
+        "ok": true,
+        "detail": "29 days old"
+      },
+      {
+        "id": "repo.commits",
+        "ok": true,
+        "detail": "4 commits"
+      },
+      {
+        "id": "repo.recent",
+        "ok": true,
+        "detail": "last commit 29 days ago"
+      },
+      {
+        "id": "repo.readme",
+        "ok": true,
+        "detail": "28085 bytes"
+      },
+      {
+        "id": "owner.age",
+        "ok": true,
+        "detail": "account 3004 days old"
+      },
+      {
+        "id": "scan.secrets",
+        "ok": true,
+        "detail": "no secret patterns in 74 files"
+      },
+      {
+        "id": "demo.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "video.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "contract.format",
+        "ok": false,
+        "detail": "not a 64-char hex address"
+      }
+    ]
+  },
+  {
+    "name": "TEST fork and stale",
+    "checkedAt": "2026-10-29T22:20:36.485Z",
+    "commit": {
+      "sha": "c0b67ac018b3588d672032ff9c5b33047e082603",
+      "date": "2017-03-04T15:13:20Z",
+      "branch": "master"
+    },
+    "passed": 7,
+    "total": 9,
+    "skipped": 3,
+    "flags": [
+      "repo.original",
+      "repo.recent"
+    ],
+    "notes": [],
+    "checks": [
+      {
+        "id": "repo.exists",
+        "ok": true,
+        "detail": "CharlesHoskinson/naivechain"
+      },
+      {
+        "id": "repo.public",
+        "ok": true,
+        "detail": "public"
+      },
+      {
+        "id": "repo.original",
+        "ok": false,
+        "detail": "fork of lhartikk/naivechain"
+      },
+      {
+        "id": "repo.age",
+        "ok": true,
+        "detail": "3523 days old"
+      },
+      {
+        "id": "repo.commits",
+        "ok": true,
+        "detail": "5 commits"
+      },
+      {
+        "id": "repo.recent",
+        "ok": false,
+        "detail": "last commit 3526 days ago"
+      },
+      {
+        "id": "repo.readme",
+        "ok": true,
+        "detail": "2213 bytes"
+      },
+      {
+        "id": "owner.age",
+        "ok": true,
+        "detail": "account 5034 days old"
+      },
+      {
+        "id": "scan.secrets",
+        "ok": true,
+        "detail": "no secret patterns in 5 files"
+      },
+      {
+        "id": "demo.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "video.loads",
+        "ok": null,
+        "detail": "not provided (optional)"
+      },
+      {
+        "id": "contract.format",
+        "ok": null,
+        "detail": "not provided (optional)"
+      }
+    ]
+  }
+]

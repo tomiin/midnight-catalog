@@ -1,0 +1,8 @@
+[
+  { "name": "TEST good project", "repo": "https://github.com/tomiin/midnight-mandate", "demo": "https://tomiin.github.io/midnight-mandate/", "contract": "49ef1c9bec0a0e5e8ab6214184842ea15b6d68c50b6654d12e7ebedfc19d55b9", "tagline": "Control: should flag nothing.", "expectFlags": [] },
+  { "name": "TEST repo does not exist", "repo": "https://github.com/tomiin/this-repo-does-not-exist-xyz", "tagline": "Fake repo.", "expectFlags": ["repo.exists"] },
+  { "name": "TEST not a github url", "repo": "https://example.com/not-a-repo", "tagline": "Bad URL.", "expectFlags": ["repo.url"] },
+  { "name": "TEST dead demo link", "repo": "https://github.com/tomiin/midnight-mandate", "demo": "https://tomiin.github.io/midnight-mandate-does-not-exist/", "tagline": "Demo 404.", "expectFlags": ["demo.loads"] },
+  { "name": "TEST bad contract address", "repo": "https://github.com/tomiin/midnight-mandate", "contract": "not-a-real-address", "tagline": "Malformed contract.", "expectFlags": ["contract.format"] },
+  { "name": "TEST fork and stale", "repo": "https://github.com/CharlesHoskinson/naivechain", "tagline": "A fork (of lhartikk/naivechain); also old. Flags are from the checks, not a judgement of the owner.", "expectFlags": ["repo.original", "repo.recent"] }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Mandate",
+    "repo": "https://github.com/tomiin/midnight-mandate",
+    "demo": "https://tomiin.github.io/midnight-mandate/",
+    "video": "https://youtu.be/tt_2N3Ekv6U",
+    "network": "preprod",
+    "contract": "49ef1c9bec0a0e5e8ab6214184842ea15b6d68c50b6654d12e7ebedfc19d55b9",
+    "tagline": "Agent proves it is authorized and within budget without revealing who it works for."
+  },
+  {
+    "name": "NightPoll",
+    "repo": "https://github.com/hycorange/nightpoll",
+    "tagline": "Anonymous community polls on Midnight. ZK membership proofs + nullifiers stop double voting; only the tally is public."
+  },
+  {
+    "name": "Attesta",
+    "repo": "https://github.com/zzaved/Attesta",
+    "tagline": "A living registry of reusable compliance attestations: confirm a partner's compliance check is still valid without receiving the document."
+  },
+  {
+    "name": "tell",
+    "repo": "https://github.com/RohanGlitched/tell",
+    "tagline": "Privacy leak scanner for Midnight: shows, in bits, what each Compact circuit gives away."
+  },
+  {
+    "name": "TrueReport",
+    "repo": "https://github.com/Yonkoo11/truereport",
+    "tagline": "Medical reports with a QR anyone can check against a Midnight registry, without exposing the diagnosis."
+  },
+  {
+    "name": "Private Health-Factor Proof",
+    "repo": "https://github.com/harshkas4na/midnight-health-factor-proof",
+    "tagline": "Private health-factor proof on Midnight (Compact), Wave 1."
+  }
+]
