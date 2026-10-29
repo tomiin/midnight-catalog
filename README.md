@@ -6,9 +6,10 @@ curates out bad projects automatically.
 
 ## Screenshots
 ![Catalog cards with evidence checks and commit hashes](docs/screens/1-cards.png)
-![One card expanded to show every check](docs/screens/2-checks-expanded.png)
-![Attesta: a note shown as context, not a verdict](docs/screens/3-note-example.png)
-![Test cases: designed bad entries are flagged](docs/screens/4-test-cases.png)
+![More cards: every project bound to the commit it was checked at](docs/screens/2-cards.png)
+![One card expanded to show every check](docs/screens/checks-expanded.png)
+![Attesta: a note shown as context, not a verdict](docs/screens/note-example.png)
+![Test cases: designed bad entries are flagged](docs/screens/test-cases.png)
 
 ## Principle
 Show EVIDENCE, not verdicts. Every project gets visible checks (repo, commits,

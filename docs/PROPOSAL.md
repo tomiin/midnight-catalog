@@ -23,4 +23,4 @@
 
 **Asks.** Is there an official catalog already? Which checks matter most to the ecosystem? Who would act as human reviewer?
 
-Repo: <link>  |  Screenshots: <attach>
+Repo: https://github.com/tomiin/midnight-catalog (screenshots in the README)
