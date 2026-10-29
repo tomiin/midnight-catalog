@@ -4,6 +4,8 @@ Idea from Eva Rodriguez M (Midnight Discord, 2026-10-26): a parallel "ecosystem 
 catalog" to show what people build on Midnight, safe to browse, with an agent that
 curates out bad projects automatically.
 
+**Live site:** https://tomiin.github.io/midnight-catalog/
+
 ## Screenshots
 ![Catalog cards with evidence checks and commit hashes](docs/screens/1-cards.png)
 ![More cards: every project bound to the commit it was checked at](docs/screens/2-cards.png)
