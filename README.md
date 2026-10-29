@@ -4,6 +4,12 @@ Idea from Eva Rodriguez M (Midnight Discord, 2026-10-26): a parallel "ecosystem 
 catalog" to show what people build on Midnight, safe to browse, with an agent that
 curates out bad projects automatically.
 
+## Screenshots
+![Catalog cards with evidence checks and commit hashes](docs/screens/1-cards.png)
+![One card expanded to show every check](docs/screens/2-checks-expanded.png)
+![Attesta: a note shown as context, not a verdict](docs/screens/3-note-example.png)
+![Test cases: designed bad entries are flagged](docs/screens/4-test-cases.png)
+
 ## Principle
 Show EVIDENCE, not verdicts. Every project gets visible checks (repo, commits,
 contract, demo). A human reviewer decides edge cases. Builders can appeal.
